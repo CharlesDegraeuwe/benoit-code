@@ -1,0 +1,30 @@
+{
+  "name": "benoit-code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CharlesDegraeuwe/benoit-code.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CharlesDegraeuwe/benoit-code/issues"
+  },
+  "homepage": "https://github.com/CharlesDegraeuwe/benoit-code#readme",
+  "dependencies": {
+    "@ai-sdk/deepseek": "^3.0.58",
+    "ai": "^6.0.300",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
