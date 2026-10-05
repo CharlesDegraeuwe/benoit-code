@@ -20,6 +20,9 @@ importers:
       commander:
         specifier: ^15.0.0
         version: 15.0.0
+      dotenv:
+        specifier: ^18.0.5
+        version: 18.0.5
       ink:
         specifier: ^8.0.0
         version: 8.0.0(@types/react@19.3.0)(react@19.3.0)
@@ -482,6 +485,11 @@ packages:
 
   csstype@3.2.3:
     resolution: {integrity: sha512-z1HGKcYy2xA8AGQfwrn0PAy+PB7X/GSj3UVJW9qKyn43xWa+gl5nXmU4qqLMRzWVLFC8KusUX8T/0kCiOYpAIQ==}
+
+  dotenv@18.0.5:
+    resolution: {integrity: sha512-aBrGvt6KhjxbEnatqMWOMidftwsrCiCvqh1yNIGB9QyF0J+VcWkKDMsvYOEm7ZS82oiV+BT1sTOtIlAmUlTpwQ==}
+    engines: {node: '>=12'}
+    hasBin: true
 
   emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
@@ -1027,6 +1035,8 @@ snapshots:
   convert-to-spaces@2.0.1: {}
 
   csstype@3.2.3: {}
+
+  dotenv@18.0.5: {}
 
   emoji-regex@8.0.0: {}
 
